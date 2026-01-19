@@ -2,7 +2,8 @@ import menu
 import actions
 import data
 
-students_list = []
+def main_class():
+    students_list = []
 
-menu.students_menu(students_list)
-
+    menu.students_menu(students_list)
+main_class()
