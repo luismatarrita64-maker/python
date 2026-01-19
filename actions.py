@@ -1,8 +1,11 @@
 def add_student(students_list):
+
     print("Enter your full name : ")
     full_name = input()
+
     print("Enter the section : ")
     section = input()
+
     while True :
         spanish = input("Enter the spanish note : ")
         if not spanish.isdigit():
@@ -24,6 +27,7 @@ def add_student(students_list):
             print("Error: invalid option")
             continue
         break
+    
     while True :
         social_studies = input("Enter the social studies note : ")
         if not social_studies.isdigit():
@@ -67,6 +71,7 @@ def view_students(students_list):
         return
 
     for dic in students_list:
+        
         print(dic)
 
 
